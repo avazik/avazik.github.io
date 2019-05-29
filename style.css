@@ -74,11 +74,11 @@ background: url("linked.jpg") center/contain no-repeat;
 #linkedin:hover {
 background: url("linked-mo.jpg") center/contain no-repeat;
 }
-#instagram {
+#medium {
 background: url("blog.jpg") center/contain no-repeat;
-margin-right:300px;
+
 }
-#instagram:hover {
+#medium:hover {
 background: url("blog.jpg") center/contain no-repeat;
 }
 div.link {
