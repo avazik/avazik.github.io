@@ -20,18 +20,12 @@ h1{
 	
 	}
 .link{
-	display:flex;
-	align-items: center;
-	margin: 80px;
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 20px 40px;
-  text-align: center;
-  
-  display: inline-block;
-  font-size: 18px;
-  color: black
+  align-items:center;
+  margin: 100px
+
+
+
+	
 
   
   
@@ -41,13 +35,12 @@ h1{
 	
 }
 .navbar{
-display: flex;	
+
 	
 }
 .avatar{
-	width:180px;
-	height: 180px;
-	padding-left:400px; 
+	
+	padding-left:360px; 
 	padding-top:40px;  
 }
 
@@ -60,51 +53,51 @@ display: flex;
 	position: relative;
 	align-items: center;
 }
-#resume{
-margin-left: 230px;
-margin-right: 50px;
+#resume {
+background: url("resume.jpg") center/contain no-repeat;
+margin-left:400px
 
 }
 #resume:hover {
-background: url("https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fmoziru.com%2Fimages%2Fscary-clipart-emoji-11.png&f=1") center/contain no-repeat;
-padding-top: 6px;
+background: url("resume-mo.jpg") center/contain no-repeat;
 }
-
-    
-
-
+#github {
+background: url("github.jpg") center/contain no-repeat;
 
 }
-#Github{
-	margin-left: 100px;
-margin-right: 50px;
-opacity: 1;
+#github:hover {
+background: url("github-mo.jpg") center/contain no-repeat;
+}
+#linkedin {
+background: url("linked.jpg") center/contain no-repeat;
+}
+#linkedin:hover {
+background: url("linked-mo.jpg") center/contain no-repeat;
+}
+#instagram {
+background: url("blog.jpg") center/contain no-repeat;
+margin-right:300px;
+}
+#instagram:hover {
+background: url("blog.jpg") center/contain no-repeat;
+}
+div.link {
+    width: 12%;
+    height: 0;
+    padding-top: 6%;
+    display: inline-block;
+    m
+
+}
 
 
-}
-#Github:hover{
-background: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seattle24x7.com%2Fwp-content%2Fuploads%2F2016%2F01%2Fcode-fellows-logo-shield.png&f=1") center/contain no-repeat;
 
-}
-#LinkedIn{
-	margin-left: 100px;
-margin-right: 50px;
 
-}
-#Linkedin:hover{
-	background: url("https://drewchial.files.wordpress.com/2014/04/question-man.jpg?w=810") center/contain no-repeat;
-	padding-bottom: 10px  
-}
-#Instagram{
-	margin-left: 100px;
-margin-right: 50px;
 
-}
-#Instagram:hover{
-	background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.psychologies.co.uk%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fpsy2_page_header%2Fpublic%2Ffield%2Fimage%2FiStock_000000477072_small.jpg&f=1)center/contain no-repeat;
-}
+
+
 img.main{
-	width:500px;
+	width:1100px;
 	float: center;
 	padding-left:200px;
 	padding-top: 0px; 
